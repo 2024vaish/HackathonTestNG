@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="44" passed="34" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T12:46:20 IST" name="Suite" finished-at="2024-03-01T12:50:16 IST" duration-ms="235532">
+    <groups>
+    </groups>
+    <test started-at="2024-03-01T12:46:20 IST" name="Test" finished-at="2024-03-01T12:50:16 IST" duration-ms="235532">
+      <class name="testCases.TS001_SearchCourse">
+        <test-method signature="SearchCourse(java.lang.String)[pri:1, instance:testCases.TS001_SearchCourse@245b4bdc]" started-at="2024-03-01T12:47:41 IST" name="SearchCourse" finished-at="2024-03-01T12:47:56 IST" duration-ms="15619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCourse -->
+        <test-method signature="addFilters()[pri:2, instance:testCases.TS001_SearchCourse@245b4bdc]" started-at="2024-03-01T12:47:57 IST" name="addFilters" finished-at="2024-03-01T12:47:59 IST" duration-ms="2897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFilters -->
+        <test-method signature="clickTopTwoCourses()[pri:3, instance:testCases.TS001_SearchCourse@245b4bdc]" started-at="2024-03-01T12:48:00 IST" name="clickTopTwoCourses" finished-at="2024-03-01T12:48:07 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTopTwoCourses -->
+      </class> <!-- testCases.TS001_SearchCourse -->
+      <class name="testCases.TS005_FormRegistrationInvalid">
+        <test-method signature="clickEnterprise()[pri:1, instance:testCases.TS005_FormRegistrationInvalid@478190fc]" started-at="2024-03-01T12:49:29 IST" name="clickEnterprise" finished-at="2024-03-01T12:49:35 IST" duration-ms="5389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEnterprise -->
+        <test-method signature="navigateToFormPage()[pri:2, instance:testCases.TS005_FormRegistrationInvalid@478190fc]" started-at="2024-03-01T12:49:35 IST" name="navigateToFormPage" finished-at="2024-03-01T12:49:40 IST" duration-ms="4406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFormPage -->
+        <test-method signature="fillForm()[pri:3, instance:testCases.TS005_FormRegistrationInvalid@478190fc]" started-at="2024-03-01T12:49:40 IST" name="fillForm" finished-at="2024-03-01T12:50:14 IST" duration-ms="34014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+      </class> <!-- testCases.TS005_FormRegistrationInvalid -->
+      <class name="testCases.TS00_Smoke">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:21 IST" name="setupDriver" finished-at="2024-03-01T12:46:39 IST" duration-ms="18517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="launchBrowser()[pri:0, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:39 IST" name="launchBrowser" finished-at="2024-03-01T12:46:39 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigateURL()[pri:1, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:41 IST" name="navigateURL" finished-at="2024-03-01T12:46:47 IST" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateURL -->
+        <test-method signature="verifypPageLoad()[pri:2, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:47 IST" name="verifypPageLoad" finished-at="2024-03-01T12:46:47 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypPageLoad -->
+        <test-method signature="verifyCourseraHomepage()[pri:3, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:47 IST" name="verifyCourseraHomepage" finished-at="2024-03-01T12:46:55 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCourseraHomepage -->
+        <test-method signature="isSearchBoxDisplayed()[pri:4, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:55 IST" name="isSearchBoxDisplayed" finished-at="2024-03-01T12:46:55 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchBoxDisplayed -->
+        <test-method signature="verifySearch()[pri:5, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:46:55 IST" name="verifySearch" finished-at="2024-03-01T12:47:04 IST" duration-ms="9253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method signature="verifyResults()[pri:6, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:05 IST" name="verifyResults" finished-at="2024-03-01T12:47:05 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResults -->
+        <test-method signature="verifyLanguageOptions()[pri:8, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:05 IST" name="verifyLanguageOptions" finished-at="2024-03-01T12:47:06 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguageOptions -->
+        <test-method signature="verifyLevelOptions()[pri:9, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:07 IST" name="verifyLevelOptions" finished-at="2024-03-01T12:47:10 IST" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLevelOptions -->
+        <test-method signature="verifyIndividualLink()[pri:10, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:10 IST" name="verifyIndividualLink" finished-at="2024-03-01T12:47:16 IST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIndividualLink -->
+        <test-method signature="verifyBuisenessLink()[pri:11, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:16 IST" name="verifyBuisenessLink" finished-at="2024-03-01T12:47:24 IST" duration-ms="7829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuisenessLink -->
+        <test-method signature="verifyUniversitiesLink()[pri:12, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:25 IST" name="verifyUniversitiesLink" finished-at="2024-03-01T12:47:29 IST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniversitiesLink -->
+        <test-method signature="verifySolutionOptions()[pri:13, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:30 IST" name="verifySolutionOptions" finished-at="2024-03-01T12:47:31 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySolutionOptions -->
+        <test-method signature="verifySolutionsLink()[pri:14, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:31 IST" name="verifySolutionsLink" finished-at="2024-03-01T12:47:36 IST" duration-ms="4664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySolutionsLink -->
+        <test-method signature="verifyForCampusLink()[pri:15, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:47:36 IST" name="verifyForCampusLink" finished-at="2024-03-01T12:47:40 IST" depends-on-methods="testCases.TS00_Smoke.verifySolutionsLink" duration-ms="3508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForCampusLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS00_Smoke@5b239d7d]" started-at="2024-03-01T12:50:15 IST" name="tearDown" finished-at="2024-03-01T12:50:16 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TS00_Smoke -->
+      <class name="testCases.TS003_LanguageLearning">
+        <test-method signature="navigateToHomepage()[pri:1, instance:testCases.TS003_LanguageLearning@399f45b1]" started-at="2024-03-01T12:48:24 IST" name="navigateToHomepage" finished-at="2024-03-01T12:48:39 IST" duration-ms="15581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomepage -->
+        <test-method signature="captureAllLanguage()[pri:2, instance:testCases.TS003_LanguageLearning@399f45b1]" started-at="2024-03-01T12:48:40 IST" name="captureAllLanguage" finished-at="2024-03-01T12:48:41 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAllLanguage -->
+        <test-method signature="getAlllevels()[pri:3, instance:testCases.TS003_LanguageLearning@399f45b1]" started-at="2024-03-01T12:48:41 IST" name="getAlllevels" finished-at="2024-03-01T12:48:41 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlllevels -->
+        <test-method signature="displayLanguagesLevels()[pri:4, instance:testCases.TS003_LanguageLearning@399f45b1]" started-at="2024-03-01T12:48:42 IST" name="displayLanguagesLevels" finished-at="2024-03-01T12:48:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLanguagesLevels -->
+      </class> <!-- testCases.TS003_LanguageLearning -->
+      <class name="testCases.TS004_FormRegistrationValid">
+        <test-method signature="clickEnterprise()[pri:1, instance:testCases.TS004_FormRegistrationValid@38c6f217]" started-at="2024-03-01T12:48:42 IST" name="clickEnterprise" finished-at="2024-03-01T12:48:48 IST" duration-ms="5792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEnterprise -->
+        <test-method signature="navigateToFormPage()[pri:2, instance:testCases.TS004_FormRegistrationValid@38c6f217]" started-at="2024-03-01T12:48:48 IST" name="navigateToFormPage" finished-at="2024-03-01T12:48:53 IST" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFormPage -->
+        <test-method signature="fillForm()[pri:3, instance:testCases.TS004_FormRegistrationValid@38c6f217]" started-at="2024-03-01T12:48:53 IST" name="fillForm" finished-at="2024-03-01T12:49:29 IST" duration-ms="35893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+      </class> <!-- testCases.TS004_FormRegistrationValid -->
+      <class name="testCases.TS002_CourseDetails">
+        <test-method signature="gotoFirstCourse()[pri:1, instance:testCases.TS002_CourseDetails@2d7275fc]" started-at="2024-03-01T12:48:08 IST" name="gotoFirstCourse" finished-at="2024-03-01T12:48:09 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoFirstCourse -->
+        <test-method signature="captureFirstCourseDetails()[pri:2, instance:testCases.TS002_CourseDetails@2d7275fc]" started-at="2024-03-01T12:48:14 IST" name="captureFirstCourseDetails" finished-at="2024-03-01T12:48:19 IST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFirstCourseDetails -->
+        <test-method signature="displayfirstCourse()[pri:3, instance:testCases.TS002_CourseDetails@2d7275fc]" started-at="2024-03-01T12:48:19 IST" name="displayfirstCourse" finished-at="2024-03-01T12:48:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayfirstCourse -->
+        <test-method signature="gotoSecondCourse()[pri:4, instance:testCases.TS002_CourseDetails@2d7275fc]" started-at="2024-03-01T12:48:19 IST" name="gotoSecondCourse" finished-at="2024-03-01T12:48:19 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoSecondCourse -->
+        <test-method signature="captureSecondCourseDetails()[pri:5, instance:testCases.TS002_CourseDetails@2d7275fc]" started-at="2024-03-01T12:48:20 IST" name="captureSecondCourseDetails" finished-at="2024-03-01T12:48:23 IST" duration-ms="3500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureSecondCourseDetails -->
+        <test-method signature="displaySecondCourse()[pri:6, instance:testCases.TS002_CourseDetails@2d7275fc]" started-at="2024-03-01T12:48:24 IST" name="displaySecondCourse" finished-at="2024-03-01T12:48:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySecondCourse -->
+      </class> <!-- testCases.TS002_CourseDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
